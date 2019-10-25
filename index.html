@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pomodoro Clock</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
+
+    <body>
+
+        <h1>Pomodoro Clock</h1>
+
+        <div class="timer-container">
+
+            <div class="session">
+                <h2>Session</h2>
+                <button class="session-timer-down"><i class="material-icons">keyboard_arrow_down</i></button>
+                <span>25</span>
+                <button class="session-timer-up"><i class="material-icons">keyboard_arrow_up</i></button>
+            </div>
+
+            <div class="break">
+                <h2>Break</h2>
+                <button class="break-timer-down" ><i class="material-icons">keyboard_arrow_down</i></button>
+                <span>5</span>
+                <button class="break-timer-up"><i class="material-icons">keyboard_arrow_up</i></button>
+            </div>
+
+        </div>
+
+        <div class="display-container">
+
+            <div class="play">
+                <button class="playButton" title="Start clock"><i class="material-icons play">play_arrow</i></button>
+                <button class="replayButton" title="Stop Clock and Reset Session and Break to 25 and 5"><i class="material-icons play">replay</i></button>
+            </div>
+
+            <div class="display">
+                <h2>Session</h2>
+                <span>25:00</span>
+            </div>
+
+            <div class="pause">
+                <button class="pauseButton" title="Pause clock"><i class="material-icons play">pause</i></button>
+                <button class="stopButton" title="Stop clock"><i class="material-icons play">stop</i></button>
+            </div>        
+
+        </div>
+        
+        <script src="scripts/script.js"></script>
+    </body>
+
+</html>
