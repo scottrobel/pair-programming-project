@@ -85,13 +85,13 @@ function playTimer() {
         } else {
             sec--;
         }
-        sessionTimerUp.removeEventListener(('click'), sessionUp);
-        sessionTimerDown.removeEventListener(('click'), sessionDown);
-        breakTimerUp.removeEventListener(('click'), breakUp);
-        breakTimerDown.removeEventListener(('click'), breakDown);
-
+        
         timerText.innerText = min + ":" + sec;
     }, 1000);
+    sessionTimerUp.removeEventListener(('click'), sessionUp);
+    sessionTimerDown.removeEventListener(('click'), sessionDown);
+    breakTimerUp.removeEventListener(('click'), breakUp);
+    breakTimerDown.removeEventListener(('click'), breakDown);
 }
 
 let pauseButton = document.querySelector('.pauseButton');
