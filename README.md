@@ -56,7 +56,7 @@ Project is: _finished_
 Project has been completed while following The Odin Project's [curriculum](https://www.theodinproject.com/courses/web-development-101/lessons/pairing-project)
 
 ## Contact
-Created by [Scott-Robel]
+Created by Scott-Robel
 # pair-programming-project
 # pair-programming-project
 # pair-programming-project
